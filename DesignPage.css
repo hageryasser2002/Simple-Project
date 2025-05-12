@@ -1,0 +1,617 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.divv {
+    display: flex;
+    flex-wrap: nowrap;
+
+}
+.divv  img:hover{
+    transform: scale(.8);
+
+}
+
+.v11 h5 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 24px;
+    margin: 0;
+}
+
+.v22 h5 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 24px;
+    margin: 0;
+}
+
+.v22 h6,
+.v11 h6 {
+    font-family: 'Dancing Script', cursive;
+    margin: 10px 0;
+}
+
+.v22 h6 span,
+.v11 h6 span {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.v11 {
+    background-color: #222831;
+    width: 50%;
+    float: left;
+    color: white;
+    margin: 80px;
+    height: 200px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.v11 button {
+    font-size: large;
+    font-weight: bold;
+    color: white;
+    border-radius: 50px;
+    background-color: #ffbe33;
+    padding: 10px;
+    border: none;
+}
+.divAll{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 20px;
+}
+.v22 button {
+    font-size: large;
+    font-weight: bold;
+    color: white;
+    border-radius: 50px;
+    background-color: #ffbe33;
+    padding: 10px;
+    border: none;
+}
+
+.v11 img {
+    border-radius: 50%;
+    border: solid 5px orange;
+    height: 170px;
+    width: 170px;
+
+}
+
+.dimg1 , .dimg2{
+    float: left;
+}
+.linkV .viewM:hover{
+    background-color: rgb(225, 156, 7);
+}
+.lcontent:hover{
+    background-color: rgb(225, 156, 7);
+
+}
+#stysub:hover{
+    background-color: rgb(225, 156, 7);
+
+}
+.dcont1, .dcont2 {
+    float: right;
+    padding: 0 150px 0 0;
+
+}
+.divv button:hover{
+background-color: rgb(225, 156, 7);
+transform: scale(1.1);
+}
+.hov:hover{
+    background-color:#222831;
+    border-radius: 5px;
+    color: #ffffff;
+    }
+
+.hov1:hover{
+color: orange;
+border-radius: 5px;
+
+}
+.hov1{
+    color: white;
+ text-decoration: none;
+}
+.menu {
+    font-family: 'Dancing Script', cursive;
+    position: relative;
+    margin-bottom: 0;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.listContain .box1 img:hover{
+    transform: scale(1.2);
+}
+
+.listContain{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.listContain .box1{
+    height: 500px;
+    width: 300px;
+
+}
+.listContain .menu1, .menu2, .menu3, .menu4,.menu5,.menu6,.menu7,.menu8,.menu9{
+    padding: 20px;
+}
+.listContain .box1 .imgbox1 img{
+    height: 150px;
+}
+.listContain .box1 .imgbox1
+{
+    height: 50%;
+    padding: 20px;
+    background-color: rgb(227, 226, 226);
+    border-radius: 0px 0px 20px 20px ;
+    text-align: center;
+    padding: 20px;
+    border-radius: 0 0 0 50px;
+}
+.listContain .box1 .detailbox1{
+    height: 40%;
+    padding: 20px;
+    background-color: #222831;
+    border-radius: 0px 0px 20px 20px ;
+}
+.detailbox1 h5{
+    font-size: x-large;
+    padding: 10px;
+}
+.detailbox1 p{
+    font-size: large;
+    padding: 10px;
+
+}
+.viewM{
+    color: white;
+    background-color: orange;
+    border-radius: 20px;
+    padding: 10px 60px 10px 60px;
+    text-decoration: none;
+}
+.linkV{
+     text-align: center;
+    justify-content: center;
+    margin: 20px;
+}
+.salary{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    width: 100%;
+    gap: 180px;
+}
+.salary i{
+    background-color: orange;
+    border: 10px solid orange;
+    border-radius: 50px;
+   
+}
+.salary h6{
+color: #ffffff;
+font-size: large;
+
+
+}
+.box1{
+    position: relative;
+    margin-top: 25px;
+    background-color: #222831;
+    border-radius: 10px;
+    color: #ffffff;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.menuLst li {
+    display: inline-block;
+    padding: 10px;
+    list-style: none;
+    padding: 10px;
+    font-family: 'Dancing Script', cursive;
+    padding: 7px 25px;
+    cursor: pointer;
+    border-radius: 25px;
+ 
+}
+
+.formMap
+{
+    display: flex;
+    flex-wrap: nowrap;
+   
+}
+.session2{
+    margin: 300px;
+}
+.foot{
+    width: 100%;
+    background-color: #222831;
+    color: #ffffff;
+    text-align: center;
+    padding: 50px;
+    line-height: 20px;
+    justify-content: center;
+}
+.cont{
+    display: flex;
+}
+.foot .cont .fdem{
+width: 30%;
+}
+.foot .cont .fopen{
+    width: 30%;
+
+}
+.foot .cont .fcon{
+    width: 30%;
+
+}  
+.ps{
+    color: black;
+    margin-bottom: 0;
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: 'Dancing Script', cursive;
+}
+.feanew{
+    
+    background-color: #222831;
+    padding: 50px;
+    width: 100%;
+    margin: 50px 0px 50px 0px;
+    color: white;
+    width: 100%;
+    position: relative;
+    height: 600px;
+    justify-content: center;
+    display: block;
+}
+.feancontent{
+    position: relative;
+    width: 50%;
+    font-family: "Open Sans", sans-serif;
+    float: right;
+    margin: 30px;
+    padding: 50px;
+   
+}
+.sel{
+    width: 400px;
+    border-radius: 7px;
+    padding: 15px;
+    border-color: #222831;
+    font-size: larger;
+    border-color: #000813;
+
+}
+input{
+    width: 100%;
+    border: none;
+    height: 50px;
+    margin-bottom: 25px;
+    padding-left: 25px;
+    border: 1px solid #999;
+    outline: none;
+    color: #000000;
+    border-radius: 5px;
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+
+font-size: larger;
+padding: 15px;
+border-radius: 7px;
+width: 400px;
+}
+
+#stysub{
+    width: 200px;
+    border-radius: 20px;
+    background-color: #ffbe33;
+    color: #ffffff;
+    border-style: none;
+}
+.contform{
+    width: 50%;
+    height: 300px ;
+}
+.map-container {
+    flex-direction: row;
+    width: 50%; /* Full width */
+    height: 400px; /* Set the height */
+    overflow: hidden; /* Hide any overflow */
+    border-radius: 10px; /* Optional border */
+}
+iframe {
+    width: 100%; /* Full width of the container */
+    height: 100%; /* Full height of the container */
+    border: 0; /* No border */
+}
+
+.hcontent{
+margin: 30px;
+font-size:xx-large;
+}
+.pcontent{ 
+    word-spacing: 7px;
+margin: 30px;
+font-size: large;
+}
+.lcontent{
+    color: white;
+    background-color: orange;
+    border-radius: 20px;
+    padding: 10px 30px;
+    text-decoration: none;
+    margin: 30px;
+}
+.feanimg{
+    width: 50%;
+    position: absolute;
+}
+.feanimg img{
+    width: 50%;
+}
+.menuLst li a {
+    text-decoration: none;
+    color: black;
+}
+
+.menuLst li a:focus {
+    background-color: #222831;
+    border-radius: 5px;
+    width: 100px;
+    color: white;
+}
+
+.v22 {
+    background-color: #222831;
+    width: 50%;
+    height: 200px;
+    float: right;
+    margin: 80px;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+
+}
+
+.v22 img {
+    border-radius: 50%;
+    border: solid 5px orange;
+    height: 170px;
+    width: 170px;
+}
+
+.head {
+    background-image: url("https://themewagon.github.io/feane/images/hero-bg.jpg");
+    height: 900px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    /* Set the width to 100% to stretch the header across the entire page */
+
+}
+
+i {
+    color: #ffffff;
+}
+.icon{
+    text-decoration-line: none;
+}
+.social-icons{
+    justify-content: center;
+    display: flex;
+    gap: 10px;
+    padding: 50px;
+}
+.pr{
+    text-align: center;
+    padding: 30px 0px 0px 0px;
+    font-size: large;
+    justify-content: center;
+    justify-items: center;
+}
+.icon i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+    text-decoration: none;
+    color: #2c2c2c; /* Icon color */
+    font-size: 18px;
+    transition: background-color 0.3s, color 0.3s;
+  
+}
+
+ /* Container for the buttons */
+ .button-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+  }
+
+  /* Styling for each button */
+  .arrow-button {
+    width: 50px;
+    height: 50px;
+    background-color: #FFB300;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    transition: transform 0.2s;
+  }
+
+  /* Hover effect */
+  .arrow-button:hover {
+    transform: scale(1.1);
+
+  }
+.CImg img{
+    border: 7px solid orange;
+    border-radius: 400px;
+    height: 200px;
+    width: 200px;
+}
+  /* Arrow icons using Unicode */
+  .arrow-left::before {
+    content: '\276E'; /* Unicode for left arrow */
+  }
+
+  .arrow-right::before {
+    content: '\276F'; /* Unicode for right arrow */
+  }
+  .Ccontent{
+    background-color: #222831;
+    margin: 20px;
+    color: white;
+    padding: 20px;
+  }
+  .Csession{
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 0px 100px 0px 100px;
+  }
+.Csf, .CsS{
+    padding: 100px;
+}
+  .session3 .Fsession{
+    justify-content: center;
+    text-align: center;
+    font-size: x-large;
+    font-family: 'Dancing Script', cursive;
+  }
+
+.icon a{
+text-decoration: none;
+}
+.icon :hover {
+    color: yellow; /* You can customize hover color per icon */
+    
+}
+.inline-div ul li {
+    display: inline;
+    list-style: none;
+    padding: 10px;
+    color: white;
+    font-family: 'Dancing Script', cursive;
+}
+#iii:hover {
+    color: orange;
+}
+#i:hover {
+    color: orange;
+}
+#ii:hover {
+    color: orange;
+}
+
+.link1 {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 32px;
+    color: #ffffff;
+    font-family: 'Dancing Script', cursive;
+    float: left;
+    word-spacing: 50px;
+}
+
+ul {
+    text-align: center;
+    padding: 20px;
+}
+
+.link1 button {
+    float: right;
+
+}
+
+.btn-order {
+    font-size: large;
+    font-weight: bold;
+    color: white;
+    border-radius: 50px;
+    background-color: #ffbe33;
+    width: 200px;
+
+    border: none;
+}
+
+.btn-order:hover {
+    background-color: orange;
+}
+
+.inline-div {
+    display: flex;
+    gap: 20px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    justify-content: space-around;
+}
+
+.txthome {
+    width: 50%;
+    padding: 130px;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.txthome h1 {
+    font-family: 'Dancing Script', cursive;
+    color: #ffffff;
+}
+
+.txthome p {
+    color: #ffffff;
+}
+
+.txthome button {
+    font-size: large;
+    font-weight: bold;
+    color: white;
+    border-radius: 50px;
+    background-color: #ffbe33;
+    padding: 10px;
+    width: 170px;
+    border: none;
+}
+
+.txthome button:hover {
+    background-color: orange;
+}
+.button-scroll button{
+    position: fixed;
+    bottom: 0px;
+    right: 0;
+    width: 50px;
+    height: 50px;
+    background-color: orange;
+    border-radius: 30px;
+    margin: 20px;
+    border-color: white;
+    color: white;
+}
